@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Carnival Chaos</title>
+    <link rel="stylesheet" href="candy.css">
+    <link rel="shortcut icon" href="https://ideogram.ai/assets/progressive-image/balanced/response/nQxer-0PTmmWMv11nqAE6g" type="image/x-icon">
+    
+</head>
+<body>
+<div class="my">
+    <img src="https://ideogram.ai/assets/progressive-image/balanced/response/nQxer-0PTmmWMv11nqAE6g"   alt="" style="width: 100px; border-radius: 100%; margin-right: 20px;">
+
+    <h1>Candy Carnival Chaos</h1>
+</div>
+    <div class="my">
+        <div id="board"></div>
+    </div>
+    <div id="info">
+        <p>Score: <span id="score">0</span></p>
+        <p>Moves: <span id="moves">0</span></p>
+        <p>Moves Left: <span id="movesLeft">15</span></p>
+        <button id="startButton">Start Game</button>
+    </div>
+
+    <audio id="backgroundMusic" src="candy.mp3" loop></audio>
+    <audio id="rightSound" src="right.mp3"></audio>
+    <audio id="wrongSound" src="wrong.mp3"></audio>
+
+    <div id="popupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Game Over! Your final score is: <span id="popupScore">0</span></p>
+            <button id="restartButton">Restart Game</button>
+        </div>
+    </div>
+    </div>
+    <script src="candy.js"></script>
+</body>
+</html>
