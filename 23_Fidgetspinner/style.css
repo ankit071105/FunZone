@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background: #2c0841;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+h1{
+    color: #29d4e4;
+    font-size: 2rem;
+}
+
+.enter{
+    width: 98px;
+    border: none;
+    
+    margin-right: 270px;
+    margin-top: 50px;
+}
+font{
+    position: relative;
+    top: 47px;
+    font-size: 1.25rem;
+    margin-right: 267px;
+}
+.line{
+    top: -12px;
+}
+.but{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: #89cbf5;
+    position: absolute;
+    border: 1px solid white;
+    cursor: pointer;
+    left: 782px;
+    top: 130px;
+}
+.but:hover{
+    background-color: #0f5f60;
+    color: black;
+}
