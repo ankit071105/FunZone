@@ -1,0 +1,33 @@
+body {
+    font-family: 'Press Start 2P', Courier, monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #cab4fb;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
+    color: #374259;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 2rem;
+    font-size: 2.5rem; 
+    text-transform: uppercase; 
+}
+
+#board {
+    background-color: #95e4fc;
+    border: 4px solid #0c1425;
+    height: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Press Start 2P', Courier, monospace; 
+    font-size: 1rem; 
+    line-height: 1.5; 
+    text-align: left; 
+}
