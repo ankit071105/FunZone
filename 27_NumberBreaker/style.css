@@ -1,0 +1,42 @@
+body{
+background-color: #37073f;
+	background-size:  8px 8px, 8px 8px;
+	background-position: center, center;
+	background-image: linear-gradient(#0c5970 1px, transparent 1px),linear-gradient(90deg, #203f6a 1px, transparent 1px);
+    min-width: 1005px;
+    color: rgb(111, 245, 224);
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+
+}
+
+.container {
+    height: 600px;
+    width: 80%;
+    margin-left: 5%;
+    overflow: hidden;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+    background-color: rgb(30, 5, 44);
+}
+
+.score,
+.lives {
+    font-size: 3em;
+}
+
+.brick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91px;
+    height: 40px;
+    padding: 1px;
+    color: rgb(49, 158, 96);
+    border: 1px solid white;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 40px;
+}
