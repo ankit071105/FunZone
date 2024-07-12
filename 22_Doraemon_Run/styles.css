@@ -6,10 +6,8 @@
 }
 
 body {
-    background: url(image/back.webp);
-    /* background-color: rgba(20, 157, 163, 1); */
-    /* min-height: 100vw; */
-    /* background-repeat: no-repeat; */
+    background: url('https://ideogram.ai/assets/progressive-image/balanced/response/P0IjOCvKR9--pvGHxolbxQ');
+   background-size: cover;
     display: flex;
     background-size: 100vw 100vh;
     justify-content: center;
@@ -18,10 +16,10 @@ body {
 
 #board {
     background: url(image/grass_template2.jpg);
-    /* background-color: rgba(0, 255, 55, 0.581); */
-    width: 130vmin;
-    /* width: 90vmin; */
-    height: 99vmin;
+background-size: cover;
+   
+    width: 100dvh;
+    height: 100%;
     border: 2px solid black;
     display: grid;
     grid-template-rows: repeat(17, 1fr);
