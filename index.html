@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun Zone</title>
-
-    <!-- //remove -->
     <meta name="description" content="Welcome to our ultimate gaming hub, featuring exciting games! Dive into a world of fun with favorites like Candy Crush, Fruit Cutting, Fish Catching, Breaking the Walls, Mario, Voice-Activated Number Guessing, Puzzles, Mazes, Archery, Mosquito Hitting, and many more. Whether you're looking for a quick challenge or a deep gaming experience, we've got something for everyone. Get ready to play, explore, and conquer!">
     <meta name="keywords" content=" ultimate_gaming_hub,over_30_exciting_games,
     candy_crush,
@@ -38,15 +36,23 @@
     <link rel="stylesheet" href="css/pop.css">
     <link rel="shortcut icon" href="https://ideogram.ai/assets/progressive-image/balanced/response/nBAI8B2RTlesDvuT-Zm6RQ" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>
+        body, html {
+    background-color: #010008 !important;
+
+}
+
+
+
+
+    </style>
 </head>
 
 <body>
   
-    <div id="particles-js"></div>
 
+    <canvas id="fireCanvas"></canvas>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  
     <header class="header" style="    background: var(--bg-color);">
         <a href="index.html"><img src="https://ideogram.ai/assets/progressive-image/balanced/response/eVeVUnLcSwmFNV-FLM3cWg" alt="" width="80px" height="80px" style="margin-right: 30px;"></a>
         <nav class="navbar">
@@ -64,11 +70,8 @@
       
  
     </header>
-    
 
-<br><br><br><br><br><br>
-<br><br><br><br><br><br>
-<div style="text-align: center; ">
+<div style="text-align: center;margin-top: -650px; ">
     <input type="text" id="searchInput" placeholder="Search games..." onkeyup="searchGames()" style="width: 50%; padding: 10px; font-size: 16px;">
 </div>
 
@@ -387,6 +390,7 @@
 <div style="display: flex; justify-content: center;">
     <div class="containerss" id="ser" style="background: rgb(27, 8, 39); width: 600px; height: auto; padding: 40px;">
         <h2>Feedback Form</h2>
+          <br><br>
         <form id="feedbackForm">
           <input type="text" id="name" placeholder="Your Name" style="background: rgb(133, 245, 251);">
           <input type="email" id="email" placeholder="Your Email"style="background: rgb(133, 245, 251);">
@@ -401,16 +405,16 @@
 <br>
 
 <br>
-    <footer class="footer" id="contact" style="background: rgb(9, 1, 23);">
+    <footer class="footer" id="contact" style="background: var(--bg-color);">
         <br>
 <br>
 
 <br>
         <div class="footer-text">
-            <p style="color: rgb(50, 122, 156)!important;">Copyright &copy; Fun Zone 2024 | All Rights Reserved  </p>
+            <p style=" color: var(--white-color) !important;">Copyright &copy; Fun Zone 2024 | All Rights Reserved  </p>
             <p>
 
-                <B style="color: rgb(11, 77, 77);">Designed by <a href="https://www.linkedin.com/in/ankit-kumar-01a52827b/" style="color: rgb(10, 15, 97);">ankit</a></B>
+                <B style="color: var( --text-color);;">Designed by <a href="https://www.linkedin.com/in/ankit-kumar-01a52827b/" style="color:var(--shadow-color);">ankit</a></B>
             </p>
         </div>
   
@@ -420,8 +424,10 @@
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="js/index.js"></script>
-
+<script src="js/index.js"></script>
 </body>
 
 </html>
+
+
+
